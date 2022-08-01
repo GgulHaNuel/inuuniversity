@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Keywords" content="인천대학교,인천,장학금,동아리,전시,총학,자유,기숙사,홍보,정보,캠퍼스" />
+    <meta name="Description" content="인천대학교,인천,장학금,동아리,전시,총학,자유,기숙사,홍보,정보,캠퍼스" />
+    <meta name="Robots" content="noindex, nofollow" />
+    <meta name="Date" content="2021-11-22+09:00" />
+    <meta http-equiv="Subject" content="인천대학교" />
+    <meta http-equiv="Title" content="인천대학교" />
+    <meta http-equiv="Author" content="GgulHaNuel" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="인천대학교">
+    <meta property="og:description" content="인천대학교,인천,장학금,동아리,전시,총학,자유,기숙사,홍보,정보,캠퍼스">
+    <meta property="og:image" content="#">
+    <meta property="og:url" content="#">
+    <title>인천대학교</title>
+    <!--  JQuery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/html2canvas@1.0.0-rc.5/dist/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+</head>
+
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: black;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #E1E6EC;
+        transform-style: preserve-3d;
+    }
+
+    .wrapper img {
+        max-width: 500px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .wrapper img.-base {
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.05),
+            0 12.5px 10px rgba(0, 0, 0, 0.042),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.035),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+            0 100px 80px rgba(0, 0, 0, 0.02);
+    }
+
+    .wrapper img.-clip {
+        clip-path: url(#clip-path);
+        pointer-events: none;
+        transition: opacity 0.2s;
+        opacity: 0;
+    }
+
+</style>
+
+<body>
+    <main>
+
+        <button>
+            <ion-icon name="logo-facebook"></ion-icon>
+        </button>
+        <button>
+            <ion-icon name="logo-twitter"></ion-icon>
+        </button>
+        <button>
+            <ion-icon name="logo-instagram"></ion-icon>
+        </button>
+        <button>
+            <ion-icon name="logo-youtube"></ion-icon>
+        </button>
+        <button>
+            <ion-icon name="logo-dribbble"></ion-icon>
+        </button>
+
+    </main>
+
+
+    <div class="cursor cursor--large"></div>
+    <div class="cursor cursor--small"></div>
+
+
+    <div class="support">
+        <a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
+    </div>
+
+    <script>
+        $(function() {
+            const svgPath = Snap('#svg path');
+            const path = [
+                'M189,98.5c0,23.1-11,49.1-24.7,65.6c-17.3,20.7-41.7,21.9-70.8,21.9c-25.9,0-58.9-10.3-76-27.1C0.2,141.7,0,124.8,0,98.5c0-23.6,14.3-50.4,28.6-66.9C45.9,11.5,62.9,0,91.5,0c22.2,0,50.7,9,66.9,21.8C180.2,39.1,189,68.5,189,98.5z',
+                'M186,88.5c0,23.1-12,49.1-25.7,65.6c-17.3,20.7-34.7,32.9-63.8,32.9c-25.9,0-56.9-12.3-74-29.1C5.2,140.7,0,113.8,0,87.5C0,63.9,10.7,50.6,25,34C42.3,13.9,63.9,0,92.5,0c22.2,0,51.7,9,67.9,21.8C182.2,39.1,186,58.5,186,88.5z',
+                'M190,92.5c0,23.1-12,48.1-25.7,64.6c-17.3,20.7-38.7,31.9-67.8,31.9c-25.9,0-52.9-8.3-70-25.1C9.2,146.7,0,120.8,0,94.5C0,70.9,14.7,41.6,29,25C46.3,4.9,64.9,0,93.5,0c22.2,0,54.7,9,70.9,21.8C186.2,39.1,190,62.5,190,92.5z"',
+                'M184,97.5c0,23.1-11,49.1-24.7,65.6c-17.3,20.7-38.7,26.9-67.8,26.9c-25.9,0-52.9-15.3-70-32.1C4.2,140.7,0,116.8,0,90.5C0,66.9,1.7,41.6,16,25C33.3,4.9,62.9,0,91.5,0c22.2,0,51.7,2,67.9,14.8C181.2,32.1,184,67.5,184,97.5z'
+            ];
+
+            let indexPath = 0;
+            const speed = 500;
+
+            playAnimation();
+
+            function playAnimation() {
+                svgPath.animate({
+                    d: path[indexPath]
+                }, speed, playAnimation);
+                if (indexPath === path.length - 1) {
+                    indexPath = 0;
+                } else {
+                    indexPath++;
+                }
+            }
+
+            const elBaseImage = document.querySelector(".img.-base");
+            const elClipImage = document.querySelector(".img.-clip");
+            const elClipPath = document.querySelector(".clip-path");
+            let acceleration = 0;
+
+            elBaseImage.addEventListener('mousemove', e => {
+                setTimeout(() => {
+                    elClipPath.style.transform = `translate3d(${e.offsetX - 100}px, ${e.offsetY - 100}px, 0)`;
+                }, acceleration < 200 ? acceleration += 5 : 200);
+            });
+
+            elBaseImage.addEventListener('mouseleave', () => {
+                elClipImage.style.opacity = 0;
+                acceleration = 0;
+            });
+
+            elBaseImage.addEventListener('mouseenter', e => {
+                elClipImage.style.opacity = 1;
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>

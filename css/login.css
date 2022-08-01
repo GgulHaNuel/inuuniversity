@@ -1,0 +1,294 @@
+/*LOGIN*/
+.login_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.login_area .login_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0 30px;
+}
+
+.login_area .login_box .login_logo {
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.login_area .login_box .login_logo > a {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+/*LOGIN FORM*/
+.login_form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+}
+
+.login_form form {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.login_form form .input_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.login_form form .join_area {
+    margin-bottom: 30px;
+}
+
+.login_form form .find_area {
+    margin-bottom: 15px;
+}
+
+.login_form form .input_area .input_size {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.login_form form .input_area .input_size > input {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 0;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-size: 1rem;
+}
+
+.login_form form .input_area .input_size .star {
+    position: absolute;
+    top: 2px;
+    right: 7px;
+    color: #ff0000;
+    font-size: 1.3rem;
+}
+
+.login_form form .input_area .input_size:last-of-type {
+    margin-bottom: 10px;
+}
+
+.login_form form .input_area .input_size > input::-webkit-input-placeholder {
+    color: #828282;
+}
+
+.login_form form .input_area .input_size > input:-moz-placeholder {
+    color: #828282;
+}
+
+.login_form form .input_area .input_size > input::-moz-placeholder {
+    color: #828282;
+}
+
+.login_form form .input_area .input_size > input:-ms-input-placeholder {
+    color: #828282;
+}
+
+.login_form form .input_area .input_size > input::placeholder {
+    color: #828282;
+}
+
+
+.login_form form .input_area > p {
+    font-size: 1rem;
+    color: #f62300;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding-left: 10px;
+    display: none;
+    position: absolute;
+}
+
+.login_form form .login_save {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.login_form form .login_save > a {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.login_form form .login_save > a > span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 5.5px;
+    margin-right: 5px;
+    background-image: url(../img/id_check.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.login_form form .login_save > a.active > span {
+    background-image: url(../img/id_check_on.png);
+}
+
+.login_form form .login_save > a > span > img {
+    width: 100%;
+    height: 100%;
+}
+
+.login_form form .login_save > a > p {
+    display: inline-block;
+    font-size: 1rem;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+.login_form form > button {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    background-color: #013e94;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: -.5px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+.login_form form > .pw_find {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.login_form form > .pw_find > a {
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -.5px;
+}
+
+/*LOGIN FORM end*/
+
+@media all and (max-width: 481px) {
+    .login_area .login_box {
+        padding: 0 15px;
+    }
+    
+    .login_form form .input_area .input_size > input {
+        font-size: 0.938rem;
+    }
+    
+    .login_form form > button {
+        font-size: 0.938rem;
+    }
+}
+
+@media all and (max-width: 376px) {
+    .login_area .login_box .login_logo > a {
+        max-width: 250px;
+    }
+
+    .login_form form .input_area {
+        margin-bottom: 60px;
+    }
+
+    .login_form form .join_area {
+        margin-bottom: 30px;
+    }
+
+    .login_form form .find_area {
+        margin-bottom: 15px;
+    }
+
+    .login_form form .input_area .input_size {
+        height: 40px;
+    }
+
+    .login_form form > button {
+        height: 40px;
+    }
+    
+    .login_form form .input_area .input_size > input {
+        font-size: 0.813rem;
+    }
+    
+    .login_form form > button {
+        font-size: 0.813rem;
+    }
+}
+
+/*LOGIN end*/
+
+/*JOIN*/
+.login_area .login_box .join_logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.find_form {
+    margin-bottom: 50px;
+}
+
+.find_title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.find_title > h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #013e94;
+    letter-spacing: -1px;
+    padding-left: 17px;
+}
+
+.find_title > h2::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    background-color: #013e94;
+    border-radius: 5rem;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+
+@media all and (max-width: 481px) {
+    .find_title > h2 {
+        font-size: 1.125rem;
+    }
+    
+    .find_title > h2::before {
+        top: 12px;
+    }
+}
+/*JOIN end*/

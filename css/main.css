@@ -1,0 +1,246 @@
+#new_sc {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+#new_sc .sc_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_sc .sc_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_sc .sc_size {
+    width: 100%;
+    padding: 0 30px;
+    height: auto;
+    position: relative;
+}
+
+@media all and (max-width: 481px) {
+    #new_sc .sc_size {
+        padding: 0 15px;
+    }
+}
+
+/*section-nav*/
+.nav_more_con {
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.nav_more_ul {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.nav_more_ul > li {
+    width: -webkit-calc(100% / 4);
+    width: -moz-calc(100% / 4);
+    width: calc(100% / 4);
+    float: left;
+    text-align: center;
+}
+
+.nav_more_ul > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.nav_more_ul > li > a > .nav_more_img {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 13px;
+}
+
+.nav_more_ul > li > a > .nav_more_img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav_more_ul > li > a > p {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    line-height: 17px;
+}
+
+@media all and (max-width: 481px) {
+    .nav_more_ul > li > a > .nav_more_img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .nav_more_ul > li > a > p {
+        font-size: 0.938rem;
+        line-height: 16px;
+    }
+}
+
+@media all and (max-width: 376px) {
+    .nav_more_ul > li > a > .nav_more_img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .nav_more_ul > li > a > p {
+        font-size: 0.813rem;
+        line-height: 14px;
+    }
+}
+
+@media all and (max-width: 321px) {
+    .nav_more_ul > li > a > .nav_more_img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/*section-nav end*/
+
+/*section-latest*/
+.latest_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.latest_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+}
+
+.latest_box:last-of-type {
+    margin-bottom: 0;
+}
+
+.latest_box .latest_title {
+    padding-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.latest_box .latest_title > h2 {
+    font-size: 1.125rem;
+    line-height: 19px;
+    float: left;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #013e94;
+}
+
+.latest_box .latest_title > a {
+    float: right;
+    display: block;
+    font-size: 0.938rem;
+    line-height: 19px;
+    letter-spacing: -.5px;
+    color: #737373;
+}
+
+.latest_box .latest_title > a > span {
+    width: 7px;
+    height: 17px;
+    display: inline-block;
+    margin-left: 4px;
+    background-image: url(../img/latest_more_btn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    position: relative;
+    top: 2px;
+}
+
+.latest_box .latest_list {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.latest_box .latest_list > li {
+    padding-bottom: 13px;
+    border-bottom: 1px solid #ededed;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+
+.latest_box .latest_list > li:last-of-type {
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.latest_box .latest_list > li > a {
+    display: block;
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 0px;
+    float: left;
+    max-width: 80%;
+    width: 100%;
+    line-height: 20px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.latest_box .latest_list > li > span {
+    float: right;
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: #909090;
+}
+
+@media all and (max-width: 481px) {
+    .latest_box {
+        padding: 20px 15px;
+    }
+    
+    .latest_box .latest_title > h2 {
+        font-size: 1.063rem;
+    }
+    
+    .latest_box .latest_list > li > a {
+        font-size: 0.938rem;
+    }
+    
+    .latest_box .latest_list > li > span {
+        font-size: 0.938rem;
+    }
+}
+
+@media all and (max-width: 376px) {
+    .latest_box .latest_list > li > a {
+        font-size: 0.813rem;
+    }
+    
+    .latest_box .latest_list > li > span {
+        font-size: 0.813rem;
+    }
+}
+
+/*section-latest end*/

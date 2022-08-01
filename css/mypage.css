@@ -1,0 +1,823 @@
+/*mypage*/
+.mypage_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.mypage_con .mypage_info {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 30px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.mypage_con .mypage_info > h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: -1px;
+    line-height: 23px;
+    margin-right: 15px;
+}
+
+.mypage_con .mypage_info > p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 23px;
+    color: #000;
+    letter-spacing: -.5px;
+}
+
+.mypage_con .mypage_nav_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area > li {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ececec;
+    position: relative;
+    background-color: #fff;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area > li:last-of-type {
+    border-bottom: 0;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 15px 30px;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_t {
+    width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_t > .scrap {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../img/view_star.png);
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    position: relative;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_t > p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #000;
+    line-height: 23px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_click {
+    width: auto;
+    height: auto;
+    float: right;
+    position: relative;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_click > p {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: -.5px;
+    line-height: 23px;
+    color: #f8b500;
+    margin-right: 5px;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_click > span {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_click > span > i {
+    font-size: 1.5rem;
+    color: #b2b2b2;
+}
+
+@media all and (max-width: 481px) {
+    .mypage_con .mypage_info {
+        padding: 20px 15px;
+    }
+
+    .mypage_con .mypage_info > h2 {
+        font-size: 1.125rem;
+    }
+
+    .mypage_con .mypage_info > p {
+        font-size: 0.938rem;
+    }
+
+    .mypage_con .mypage_nav_con .mypage_nav_area > li > a {
+        padding: 15px;
+    }
+
+    .mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_t > p {
+        font-size: 1rem;
+    }
+
+    .mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_t > .scrap {
+        width: 22px;
+        height: 22px;
+        top: -1px;
+    }
+
+    .mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_click > p {
+        font-size: 0.938rem;
+    }
+}
+
+@media all and (max-width: 376px) {
+    .mypage_con .mypage_info > p {
+        font-size: 0.813rem;
+    }
+
+    .mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_t > p {
+        font-size: 0.938rem;
+    }
+
+    .mypage_con .mypage_nav_con .mypage_nav_area > li > a .nav_click > p {
+        font-size: 0.813rem;
+    }
+}
+
+/*mypage end*/
+
+/*mypage note*/
+.myNote_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.myNote_con .myNote_info {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 2px solid #ececec;
+    background-color: #f9f9f9;
+    padding: 20px 30px;
+    overflow: hidden;
+}
+
+.myNote_con .myNote_info .myNote_title {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.myNote_con .myNote_info .myNote_title > h2 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+    color: #000;
+    line-height: 36px;
+}
+
+.myNote_con .myNote_info .myNote_info_lt {
+    width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+}
+
+.myNote_con .myNote_info .myNote_info_lt .myNote_select {
+    width: 130px;
+    height: 36px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.myNote_con .myNote_info .myNote_info_lt .myNote_select > select {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 2px solid #ececec;
+    border-radius: 7px;
+    text-align: left;
+    -moz-text-align-last: left;
+    text-align-last: left;
+    padding: 0 10px;
+    font-size: 1rem;
+    background: url('../img/list_bt_arrow.png') no-repeat 95% 50%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.myNote_con .myNote_info .myNote_info_lt .myNote_select > select::-ms-expand {
+    display: none;
+}
+
+.myNote_con .myNote_info .myNote_info_lt .myNote_num {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myNote_con .myNote_info .myNote_info_lt .myNote_num > h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    line-height: 35px;
+}
+
+.myNote_con .myNote_info .myNote_info_lt .myNote_num > h2 > span {
+    margin-left: 5px;
+    color: #fcaf16;
+}
+
+.myNote_con .myNote_info .myNote_info_btn {
+    float: right;
+    position: relative;
+}
+
+.myNote_con .myNote_info .myNote_info_btn > a {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 13px;
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    background-color: #1f4089;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: -1px;
+    border-radius: 8px;
+}
+
+.myNote_con .myNote_btn_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 15px 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 2px solid #e7e7e7;
+    background-color: #f9f9f9;
+}
+
+.myNote_con .myNote_btn_box.clear_flex {
+    display: block;
+    overflow: hidden;
+}
+
+.myNote_con .myNote_btn_box .myNote_check {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 15px;
+    top: 5px;
+}
+
+.myNote_con .myNote_btn_box .myNote_check > input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #ececec;
+    position: relative;
+}
+
+.myNote_con .myNote_btn_box .myNote_answer {
+    width: auto;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+.myNote_con .myNote_btn_box .myNote_answer > button {
+    width: auto;
+    padding: 0 15px;
+    height: 30px;
+    border: 0;
+    background-color: #1f4089;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: -.5px;
+    font-weight: 300;
+    border-radius: 6px;
+}
+
+.myNote_con .myNote_btn_box .myNote_delete {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.myNote_con .myNote_btn_box .myNote_delete.float_gt {
+    float: right;
+}
+
+.myNote_con .myNote_btn_box .myNote_delete > button {
+    width: auto;
+    padding: 0 15px;
+    height: 30px;
+    border: 0;
+    background-color: #9f9f9f;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: -.5px;
+    font-weight: 300;
+    border-radius: 6px;
+}
+
+.myNote_con .myNote_list {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.myNote_con .myNote_list_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.myNote_con .myNote_list_box > li {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 2px solid #ececec;
+    overflow: hidden;
+    padding: 15px 30px;
+    overflow: hidden;
+}
+
+.myNote_con .myNote_list_box > li .check_box {
+    float: left;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    top: 10px;
+}
+
+.myNote_con .myNote_list_box > li .check_box > input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #ececec;
+    position: relative;
+}
+
+.myNote_con .myNote_list_box > li .title_box {
+    width: -webkit-calc((100% - 21px) - 115px);
+    width: -moz-calc((100% - 21px) - 115px);
+    width: calc((100% - 21px) - 115px);
+    float: left;
+    overflow: hidden;
+}
+
+.myNote_con .myNote_list_box > li .title_box > p {
+    font-size: 1rem;
+    letter-spacing: -.5px;
+    font-weight: 300;
+    color: #909090;
+    position: relative;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 16px;
+}
+
+.myNote_con .myNote_list_box > li .title_box > a {
+    position: relative;
+    font-size: 1.125rem;
+    letter-spacing: -1px;
+    font-weight: 500;
+    color: #000;
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myNote_con .myNote_list_box > li .data_box {
+    width: 95px;
+    text-align: right;
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.myNote_con .myNote_list_box > li .data_box > p {
+    color: #909090;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: -.5px;
+}
+
+.myNote_con .myNote_cont {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.myNote_con .myNote_cont .myNote_stat {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 2px solid #ececec;
+}
+
+.myNote_con .myNote_cont .myNote_stat > li {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 15px 30px;
+    border-bottom: 2px solid #ececec;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.myNote_con .myNote_cont .myNote_stat > li:last-of-type {
+    border-bottom: 0;
+}
+
+.myNote_con .myNote_cont .myNote_stat > li > span {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: block;
+    margin-right: 20px;
+    font-size: 1rem;
+    color: #909090;
+    font-weight: 300;
+    letter-spacing: -.5px;
+    line-height: 30px;
+}
+
+.myNote_con .myNote_cont .myNote_stat > li > h2 {
+    font-size: 1.125rem;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    position: relative;
+}
+
+.myNote_con .myNote_cont .myNote_stat > li > p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #909090;
+    letter-spacing: -.5px;
+    line-height: 30px;
+}
+
+.myNote_con .myNote_cont .myNote_stat > li > input {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: auto;
+    border: 2px solid #ececec;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 1rem;
+    color: #000;
+    padding: 0 15px;
+}
+
+.myNote_con .myNote_cont .myNote_txt {
+    padding: 20px 30px 70px 30px;
+    border-bottom: 2px solid #ececec;
+}
+
+.myNote_con .myNote_cont .myNote_txt.border_bt {
+    border-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.myNote_con .myNote_cont .myNote_txt > p {
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 24px;
+    color: #000;
+    font-weight: 500;
+}
+
+.myNote_con .myNote_cont .myNote_txt > textarea {
+    width: 100%;
+    height: 200px;
+    border: 2px solid #ececec;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.myNote_con .myNote_cont .myNote_txt > h2 {
+    width: 100%;
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: -.5px;
+    text-align: right;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.myNote_con .myNote_cont .myNote_txt > h2 > span {
+    color: #909090;
+}
+
+.myNote_con .myNote_cont .myNote_txt > textarea::-webkit-input-placeholder {
+    color: #a2a2a2;
+}
+
+.myNote_con .myNote_cont .myNote_txt > textarea:-moz-placeholder {
+    color: #a2a2a2;
+}
+
+.myNote_con .myNote_cont .myNote_txt > textarea::-moz-placeholder {
+    color: #a2a2a2;
+}
+
+.myNote_con .myNote_cont .myNote_txt > textarea:-ms-input-placeholder {
+    color: #a2a2a2;
+}
+
+.myNote_con .myNote_cont .myNote_txt > textarea::placeholder {
+    color: #a2a2a2;
+}
+
+.myNote_con .submit_btn {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0;
+    text-align: center;
+}
+
+.myNote_con .submit_btn > li {
+    width: auto;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.myNote_con .submit_btn > li:last-of-type {
+    margin-right: 0;
+}
+
+.myNote_con .submit_btn > li > a {
+    font-size: 1rem;
+    display: block;
+    padding: 5px 15px;
+    border-radius: 6px;
+    letter-spacing: -.5px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.myNote_con .submit_btn > li.cancel > a {
+    background-color: #9f9f9f;
+}
+
+.myNote_con .submit_btn > li.submit > a {
+    background-color: #1f4089;
+}
+
+@media all and (max-width: 481px) {
+    .myNote_con .myNote_info {
+        padding: 15px 15px;
+    }
+
+    .myNote_con .myNote_info .myNote_info_lt .myNote_select {
+        width: 120px;
+        margin-right: 15px;
+    }
+
+    .myNote_con .myNote_info .myNote_info_lt .myNote_select > select {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_info .myNote_info_lt .myNote_num > h2 {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_info .myNote_info_btn > a {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_btn_box {
+        padding: 10px 15px;
+    }
+
+    .myNote_con .myNote_btn_box .myNote_delete > button {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_btn_box .myNote_answer > button {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_list_box > li {
+        padding: 10px 15px;
+    }
+
+    .myNote_con .myNote_list_box > li .title_box > p {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_list_box > li .title_box > a {
+        font-size: 1rem;
+    }
+
+    .myNote_con .myNote_list_box > li .data_box {
+        top: 12px;
+    }
+
+    .myNote_con .myNote_list_box > li .data_box > p {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_info .myNote_title > h2 {
+        font-size: 1rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_stat > li {
+        padding: 10px 15px;
+    }
+
+    .myNote_con .myNote_cont .myNote_stat > li > span {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_stat > li > h2 {
+        font-size: 1rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_stat > li > p {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_txt {
+        padding: 15px 15px 60px 15px;
+    }
+
+    .myNote_con .myNote_cont .myNote_txt > p {
+        font-size: 0.938rem;
+        font-weight: 500;
+    }
+
+    .myNote_con .myNote_cont .myNote_stat > li > input {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_txt > textarea {
+        padding: 10px;
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_txt > h2 {
+        font-size: 0.938rem;
+    }
+    
+    .myNote_con .submit_btn {
+        padding: 0 15px;
+    }
+    
+    .myNote_con .submit_btn > li > a {
+        font-size: 0.938rem;
+    }
+}
+
+@media all and (max-width: 376px) {
+    .myNote_con .myNote_info .myNote_info_lt .myNote_select {
+        width: 110px;
+        margin-right: 10px;
+    }
+
+    .myNote_con .myNote_info .myNote_info_lt .myNote_select > select {
+        font-size: 0.813rem;
+    }
+
+    .myNote_con .myNote_info .myNote_info_lt .myNote_num > h2 {
+        font-size: 0.813rem;
+    }
+
+    .myNote_con .myNote_info .myNote_info_btn > a {
+        font-size: 0.813rem;
+    }
+
+    .myNote_con .myNote_btn_box .myNote_delete > button {
+        font-size: 0.813rem;
+    }
+
+    .myNote_con .myNote_btn_box .myNote_answer > button {
+        font-size: 0.813rem;
+    }
+
+    .myNote_con .myNote_list_box > li .title_box > p {
+        font-size: 0.813rem;
+        margin-bottom: 0;
+    }
+
+    .myNote_con .myNote_list_box > li .title_box > a {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_list_box > li .data_box > p {
+        font-size: 0.813rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_stat > li > span {
+        font-size: 0.813rem;
+        margin-right: 10px;
+    }
+
+    .myNote_con .myNote_cont .myNote_stat > li > h2 {
+        font-size: 0.938rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_stat > li > p {
+        font-size: 0.813rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_txt > p {
+        font-size: 0.813rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_stat > li > input {
+        font-size: 0.813rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_txt > textarea {
+        font-size: 0.813rem;
+    }
+
+    .myNote_con .myNote_cont .myNote_txt > h2 {
+        font-size: 0.813rem;
+    }
+    
+    .myNote_con .submit_btn > li > a {
+        font-size: 0.813rem;
+    }
+}
+
+@media all and (max-width: 321px) {
+    .myNote_con .myNote_info .myNote_info_lt {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .myNote_con .myNote_info .myNote_info_btn {
+        display: block;
+        float: none;
+    }
+}
+
+/*mypage note end*/
